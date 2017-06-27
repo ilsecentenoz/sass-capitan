@@ -1,0 +1,53 @@
+@import 'colors';
+@import 'resolution';
+@import 'fonts';
+
+
+#nav-bar{
+  background:$amarillo;
+  margin-bottom: $margin-navbar;
+  	h1{
+  		color: $blanco;
+	}
+}
+
+
+#menu{
+   background:$gris;
+ 
+	tr{
+		
+		td{
+			color:$blanco;
+			margin: $margin-li;
+			}
+		td:hover{
+				background:$amarillo;
+				cursor:pointer;
+			}
+	}
+}
+
+
+#lista-alumnas{
+		h1{
+			color:$negro;
+		}
+}
+#aside{
+	background:$gris;
+	color:$blanco;
+	margin: $margin-aside;
+	text-align: $center;
+}
+#pie-pagina{
+	
+	div{
+		
+		div{
+			background:$gris;
+			color: white;
+			text-align: $center;
+		}
+	}
+}
