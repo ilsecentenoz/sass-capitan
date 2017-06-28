@@ -13,18 +13,14 @@
 
 
 #menu{
-   background:$gris;
- 
-	tr{
+   background:$gris;		
+	li{
+	color:$blanco;
 		
-		td{
-			color:$blanco;
-			margin: $margin-li;
-			}
-		td:hover{
-				background:$amarillo;
-				cursor:pointer;
-			}
+	}
+	li:hover{
+	background:$amarillo;
+	cursor:pointer;
 	}
 }
 
@@ -37,7 +33,6 @@
 #aside{
 	background:$gris;
 	color:$blanco;
-	margin: $margin-aside;
 	text-align: $center;
 }
 #pie-pagina{
